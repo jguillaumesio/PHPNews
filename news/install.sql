@@ -1,0 +1,3 @@
+CREATE TABLE `articles` (`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,`titre` text NOT NULL,`contenu` text NOT NULL,`date_publication` datetime NOT NULL)
+CREATE TABLE `commentaires` (`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,`article_id` int(11) NOT NULL,`pseudo` text NOT NULL,`commentaire` text NOT NULL,`date_publication` datetime NOT NULL)
+CREATE TABLE `utilisateur` (`id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,`pseudo` varchar(50) DEFAULT NULL,`mail` varchar(191) DEFAULT NULL,`mdp` text DEFAULT NULL,`rang` int(11) NOT NULL)
