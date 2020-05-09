@@ -2,7 +2,7 @@
 Include a news system to your website easily\
 You need atleast PHP v5.5.0
 
-##INSTALLATION  
+## INSTALLATION  
 1. Create a database  
 2. Put the news folder at the root of your website  
 3. Now you just have to go to the link of your website and add /news (http://example.com/news) and follow instructions  
@@ -42,7 +42,7 @@ To include full news
 <?php include("news/articles/articles_viewer.php"); ?>
 ```
 
-##MODIFICATION
+## MODIFICATIONS
 The default articles theme is in news/articles/template/defaut.php
 The default fullwidth articles theme is in news/articles/template/defaut_fullwidth.php
 Fullwidth articles theme modification functions are the same as articles ones.
