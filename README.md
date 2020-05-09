@@ -41,3 +41,23 @@ To include full news
 ```
 <?php include("news/articles/articles_viewer.php"); ?>
 ```
+The default articles theme is in news/articles/template/defaut.php
+Articles theme modification
+Articles functions :
+```
+{titre_preview} to display the title link to fullwidth article
+{titre} to display the title of the article
+{contenu} to display the contenu of the article
+{date_publication} to display the publication date of the article
+```
+The default fullwidth articles theme is in news/articles/template/defaut_fullwidth.php
+Fullwidth articles theme modification functions are the same as articles ones.
+
+The default comments theme is in news/articles/template/defaut_commentaires.php
+Comments theme modification
+Comments functions :
+```
+{com_pseudo} to display the title link to fullwidth article
+{com_contenu} to display the title of the article
+{com_date_publication} to display the publication date of the article
+```
