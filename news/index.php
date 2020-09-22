@@ -1,5 +1,5 @@
 <?php
-	$install=true;
+	$install=false;
 	function file_edit_contents($file_name, $line, $new_value){
   		$file = explode("\n", rtrim(file_get_contents($file_name)));
   		$file[$line] = $new_value;
